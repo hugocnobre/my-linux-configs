@@ -32,12 +32,13 @@ I have tried PCM before and it borked my audio. So I will jsut convert the files
 
 # Davinci Resolve Studio
 - If using MKV and AAC audio you only need to encode the audio
-	- Create a "mkv_to_wav.sh" file
+	- Create a "mkv_to_wav.sh" file or download it
 - If using MP4 footage and AAC audio you only need to encode audio
-	- Create "mp4_to_wav.sh" file
-- Put scripts in a folder (for example named "Encoder")
-	- Put video files inside
-	- Execute desired script to convert
+	- Create "mp4_to_wav.sh" file or download it
+- Put scripts in a folder (for example "/Videos/Encoding")
+- Execute desired script to convert inside the folder
+	 - `./mkv_to_wav.sh`
+	 - `./mp4_to_wav.sh`
 
 ## MKV to WAV
 
@@ -74,7 +75,9 @@ done
 
 # Davinci Resolve
 - Easiest way is to convert to ProRes MOV and the audio to pcm
-	- Create "mp4_to_mov.sh" file
+	- Create "mp4_to_mov.sh" file or download it
+- Put script in a folder (for example "/Videos/Encoding")
+	- Execute the script `./mp4_to_mov.sh`
 
 - [Download mp4_to_mov.sh](ffmpeg-scripts/mp4_to_mov.sh)
 
