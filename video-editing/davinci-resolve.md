@@ -41,6 +41,8 @@ I have tried PCM before and it borked my audio. So I will jsut convert the files
 
 ## MKV to WAV
 
+- [Download mkv_to_wav.sh](ffmpeg-scripts/mkv_to_wav.sh)
+
 ```sh
 #!/bin/bash
 
@@ -55,6 +57,8 @@ done
 ```
 
 ## MP4 to WAV
+
+- [Download mp4_to_wav.sh](ffmpeg-scripts/mp4_to_wav.sh)
 
 ``` sh
 #!/bin/bash
@@ -71,6 +75,8 @@ done
 # Davinci Resolve
 - Easiest way is to convert to ProRes MOV and the audio to pcm
 	- Create "mp4_to_mov.sh" file
+
+- [Download mp4_to_mov.sh](ffmpeg-scripts/mp4_to_mov.sh)
 
 ```sh
 #!/bin/bash
