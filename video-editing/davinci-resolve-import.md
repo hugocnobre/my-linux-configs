@@ -1,13 +1,13 @@
-# Requierements
+# Requirements
 - FFMPEG
-	- Debian: `sudo apt install ffmpeg`
-	- Fedora: `sudo dnf install ffmpeg ffmpeg-devel`
-	- Arch: `sudo pacman -S ffmpeg`
+ - Debian: `sudo apt install ffmpeg`
+ - Fedora: `sudo dnf install ffmpeg ffmpeg-devel`
+ - Arch: `sudo pacman -S ffmpeg`
 - On Fedora you might need to install RPM fusion
 
 # OBS
 - The most simple option is to record your footage
-	- With format supported by Davinci Resolve
+ - With format supported by Davinci Resolve
 
 Go to
 1. Settings
@@ -18,11 +18,11 @@ Go to
 - Recording Format: MOV
 - Audio Encoder: FFMPEG PCM
 - Video Encoder
-	- Might need to change it to see different options
+ - Might need to change it to see different options
 
-You can use AMD hardware enconding via VAAPI. And I'm choosing to use MKV and AAC audio because that's what has been working for me.
+You can use AMD hardware encoding via VAAPI. And I'm choosing to use MKV and AAC audio because that's what has been working for me.
 
-I have tried PCM before and it borked my audio. So I will jsut convert the files later because it's super easy to do.
+I have tried PCM before and it borked my audio. So I will just convert the files later because it's super easy to do.
 
 ## Type Custom Output
 1. Change "Type" to "Custom Output (FFmpeg)"
@@ -32,13 +32,13 @@ I have tried PCM before and it borked my audio. So I will jsut convert the files
 
 # Davinci Resolve Studio
 - If using MKV and AAC audio you only need to encode the audio
-	- Create a "mkv_to_wav.sh" file or download it
+ - Create a "mkv_to_wav.sh" file or download it
 - If using MP4 footage and AAC audio you only need to encode audio
-	- Create "mp4_to_wav.sh" file or download it
+ - Create "mp4_to_wav.sh" file or download it
 - Put scripts in a folder (for example "/Videos/Encoding")
 - Execute desired script to convert inside the folder
-	 - `./mkv_to_wav.sh`
-	 - `./mp4_to_wav.sh`
+  - `./mkv_to_wav.sh`
+  - `./mp4_to_wav.sh`
 
 ## MKV to WAV
 
@@ -75,9 +75,9 @@ done
 
 # Davinci Resolve
 - Easiest way is to convert to ProRes MOV and the audio to pcm
-	- Create "mp4_to_mov.sh" file or download it
+ - Create "mp4_to_mov.sh" file or download it
 - Put script in a folder (for example "/Videos/Encoding")
-	- Execute the script `./mp4_to_mov.sh`
+ - Execute the script `./mp4_to_mov.sh`
 
 - [Download mp4_to_mov.sh](ffmpeg-scripts/mp4_to_mov.sh)
 
