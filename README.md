@@ -10,3 +10,6 @@
 
 ## Image Editing and Manipulation
   - [Install Affinity Photo, Designer and Publisher](image-editing/affinity.md)
+
+## Games
+  - [Install Mods On Linux](games/mods.md)
