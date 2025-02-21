@@ -33,6 +33,6 @@ or
 paru -S limo-git
 ```
 
-### [NexusMods App] (https://github.com/Nexus-Mods/NexusMods.App)
+### [NexusMods App](https://github.com/Nexus-Mods/NexusMods.App)
   - Work in progress (devs only)
   - Can't add external games
