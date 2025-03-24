@@ -9,12 +9,11 @@
 ## Mod Managers
 
 ## Linux Compatible Mod Manager
-  - [Mod Organizer 2](https://lutris.net/games/mod-organizer-2/)
-  - [Vortex](https://lutris.net/games/vortex-mod-manager/)
   - Run with Wine or Lutris
+    - [Mod Organizer 2](https://lutris.net/games/mod-organizer-2/)
+    - [Vortex](https://lutris.net/games/vortex-mod-manager/)
 
 ### [Limo](https://github.com/limo-app/limo)
-  - Higly recommended
   - General purpose mod manager
   - Supports NexusMods API and Loot
 

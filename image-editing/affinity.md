@@ -5,7 +5,8 @@
 
 # Affinity Guide and Scripts
   - [Visit Ryzendew Repo](https://github.com/ryzendew/AffinityOnLinux)
-  - [Ryzendew Written Guide](https://github.com/ryzendew/AffinityOnLinux/blob/patch-1/Guide/Guide.md)
+  - [Ryzendew Guide](https://github.com/ryzendew/AffinityOnLinux/blob/patch-1/Guide/Guide.md)
+  - [Twig6943 Guide](https://github.com/Twig6943/AffinityonLinux)
 
 ## Affinity Photo
 
