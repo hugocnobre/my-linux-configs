@@ -17,3 +17,17 @@ paru -S davinci-resolve
 ```
 paru -S davinci-resolve-studio
 ```
+
+# Fix Compatibility Issues
+- Install the following packages
+
+```
+libxcrypt-compat libcurl libcurl-devel mesa-libGLU --allowerasing
+```
+
+# Optimize
+- You might notice some performance improvements
+
+```
+cd /opt/resolve/libs && sudo mkdir disabled-libraries && sudo mv libglib* libgio* libgmodule* disabled-libraries
+```
