@@ -1,0 +1,8 @@
+# Packages
+
+## Bulk Install
+- Dowload [pkglist.txt](/pkglist.txt)
+
+```
+paru -S --needed - < pkglist.txt
+```

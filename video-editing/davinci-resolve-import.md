@@ -77,7 +77,10 @@ done
 - Easiest way is to convert to ProRes MOV and the audio to pcm
 	- Create "mp4_to_mov.sh" file or download it
 - Put script in a folder (for example "/Videos/Encoding")
-	- Execute the script `./mp4_to_mov.sh`
+- Enable "run as executable"
+  - File manager properties
+  - Or use the command chmod +x filename.sh (replace the filename)
+- Execute the script `./mp4_to_mov.sh`
 
 - [Download mp4_to_mov.sh](ffmpeg-scripts/mp4_to_mov.sh)
 
