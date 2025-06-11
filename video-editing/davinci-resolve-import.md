@@ -36,6 +36,9 @@ I have tried PCM before and it borked my audio. So I will jsut convert the files
 - If using MP4 footage and AAC audio you only need to encode audio
 	- Create "mp4_to_wav.sh" file or download it
 - Put scripts in a folder (for example "/Videos/Encoding")
+- Enable "run as executable"
+  - File manager properties
+  - Or use the command chmod +x filename.sh (replace the filename)
 - Execute desired script to convert inside the folder
 	 - `./mkv_to_wav.sh`
 	 - `./mp4_to_wav.sh`
