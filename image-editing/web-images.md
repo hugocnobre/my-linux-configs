@@ -64,15 +64,20 @@ Smaller images will not be upscaled.
 ```
 
 These two lines mean:
+
+```
 - 1200x> → resize width to 1200px max, preserving aspect ratio
 - x800> → resize height to 800px max, preserving aspect ratio
+```
 
 Ensures that images smaller than the target size are not resized
 
 Example: Resize to max 1920x1080
 
+```
 -resize "1920x>" \
 -resize "x1080>" \
+```
 
 Make sure both lines are updated to avoid distorting the image proportions.
 
