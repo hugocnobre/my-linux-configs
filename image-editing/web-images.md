@@ -46,6 +46,49 @@ sudo apt update
 sudo apt install imagemagick
 ```
 
+## Usage
+
+1. Place the script in the directory containing your images
+2. Open the terminal in that directory
+
+```
+cd /path/to/your/images
+```
+
+3. Run the script
+
+```
+./optimize_images.sh
+```
+
+4. Optimized .webp images will appear in:
+- ./optimized_images/ (folder in the selected directory)
+
+## Compression Options
+
+The script provides two modes of Webp compression:
+
+### Option A: Lossless WebP (enabled by default)
+- Best for screenshots, logos, or icons
+- Retains 100% of original image dat
+- Larger file sizes
+
+### Option B: Lossy WebP
+- Ideal for photographs and large batches
+- Great balance of image quality and size
+- File size is significantly reduced
+
+To switch to lossy:
+1. Comment out the lossless section (OPTION A)
+2. Uncomment the lossy section (OPTION B) and adjust the -quality value if needed
+
+Example:
+
+```
+# -define webp:lossless=true         ← Comment this
+-quality 85                          ← Uncomment this
+```
+
 ## Customize Resize Resolution
 
 By default, the script resizes images proportionally to fit within:
