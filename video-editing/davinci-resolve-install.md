@@ -5,7 +5,7 @@
 # Install
   - [Download Davinci Resolve Installer](https://www.blackmagicdesign.com/products/davinciresolve)
   - You might need the installer
-    - Copy the file to ``/home/desktop/.cache/paru/clone/davinci-resolve-studio```
+    - Copy the file to ```/home/desktop/.cache/paru/clone/davinci-resolve-studio```
     - Or extract the file and run the installer   
 
 ## Davinci Resolve
