@@ -1,12 +1,15 @@
 #!/bin/bash
 
+# Ignore case sensitivity for file matching
+shopt -s nocaseglob
+
 # Loop through all MP4 files
 for i in *.mp4; do
   # Skip if no MP4 files exist
   [ -e "$i" ] || continue
 
   # Extract the filename without the extension
-  filename="${i%.mp4}"
+  filename="${i%.*}"
 
   # Convert MP4 to ProRes MOV (software encoding for ProRes)
   ffmpeg -i "$i" \
